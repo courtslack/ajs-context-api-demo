@@ -1,11 +1,9 @@
-import { useState } from 'react'
-import Layout from './components/Layout'
+//imports things
+import Layout from  './components/Layout' // ../ means go up a folder
 import './App.css'
 
 const App = () => {
-	const [user, setUser] = useState({ name: 'Ryan' })
-
-	return <Layout user={user} setUser={setUser} />
+        return <Layout  />
 }
 
 export default App

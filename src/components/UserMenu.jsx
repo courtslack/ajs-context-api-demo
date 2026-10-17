@@ -1,4 +1,10 @@
-const UserMenu = ({ user, setUser }) => {
+import { useContext } from "react"
+import { UserContext } from "../contexts/UserContext"
+
+const UserMenu = () => {
+
+  const { user } = useContext(UserContext)
+ 
   return (
     <div className="user-menu">
       <span className="user-menu-name">{user.name}</span>

@@ -130,6 +130,11 @@
 	flex-direction: column;
 }
 
+.stat-card.dark {
+	background-color: #3d566e;
+	color: #3498db;
+}
+
 .stat-number {
 	font-size: 2.5rem;
 	font-weight: bold;
